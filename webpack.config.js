@@ -10,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /nome_modules/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {
@@ -20,5 +20,8 @@ module.exports = {
         },
       },
     ],
+  },
+  resolve: {
+    extensions: [".js", ".mjs"],
   },
 };
