@@ -1,5 +1,5 @@
 {
-  "name": "eslint",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,6 @@
     "dev": "webpack --mode development --watch"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -18,5 +17,10 @@
     "eslint": "^9.20.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "babel": "^5.8.38",
+    "whatwg-fetch": "^2.0.4"
   }
 }
